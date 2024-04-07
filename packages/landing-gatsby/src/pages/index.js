@@ -40,30 +40,30 @@ const AppModern = () => {
 
         <AppWrapper>
           <Sticky top={0} innerZ={9999} activeClass="sticky-active">
-            <Navbar />
+            <Navbar /> 
           </Sticky>
           <ContentWrapper>
-            <Banner />
-           <Features />
+             <Banner />
+           <Features /> 
          {/*    <AppSlider />  */}
 
-            <DashboardCopy />
+      <DashboardCopy />
             <VisitorSection />
             <DashboardFeatures />
             <CyberSecurity />
 
-            <UpdateScreen />
+            <UpdateScreen /> 
         {/*     <Testimonial />
             <ProductSlide /> */}
-      {/*       <DesignedAndBuilt /> */}
-            <PricingPolicy />
-         {/*    <TeamPortfolio /> */}
+    {/* <DesignedAndBuilt />  */}
+          <PricingPolicy /> 
+            {/* <TeamPortfolio />  */}
          <div className="faq-container" style={{ /* Add specific styles for FAQ here */ }}>
-         <FAQ />
+         {/* <FAQ /> */}
          </div>
-            <Newsletter />
+            <Newsletter /> 
           </ContentWrapper>
-           <Footer /> 
+           <Footer />  
         </AppWrapper>
       </>
     </ThemeProvider>

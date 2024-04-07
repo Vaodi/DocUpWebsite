@@ -5,9 +5,9 @@ import { ResetCSS } from 'common/assets/css/style';
 
 const NotFoundPage = () => (
   <>
-    <Seo title="404: Not found" />
-    <ResetCSS />
-    <ErrorSec></ErrorSec>
+ <div>
+  404: Not found, please try again 
+ </div>
   </>
 );
 
