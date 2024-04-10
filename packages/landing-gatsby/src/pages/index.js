@@ -33,10 +33,10 @@ const AppModern = () => {
   return (
     <ThemeProvider theme={theme}>
       <>
-        <Seo title="DocUp" />
-        <Modal />
-        <ResetCSS />
-        <GlobalStyle />
+      <Seo title="DocUp" /> 
+        <Modal /> 
+        <ResetCSS /> 
+        <GlobalStyle /> 
 
         <AppWrapper>
           <Sticky top={0} innerZ={9999} activeClass="sticky-active">
@@ -45,7 +45,7 @@ const AppModern = () => {
           <ContentWrapper>
              <Banner />
            <Features /> 
-         {/*    <AppSlider />  */}
+    
 
       <DashboardCopy />
             <VisitorSection />
@@ -53,17 +53,13 @@ const AppModern = () => {
             <CyberSecurity />
 
             <UpdateScreen /> 
-        {/*     <Testimonial />
-            <ProductSlide /> */}
-    {/* <DesignedAndBuilt />  */}
+
           <PricingPolicy /> 
-            {/* <TeamPortfolio />  */}
-         <div className="faq-container" style={{ /* Add specific styles for FAQ here */ }}>
-         {/* <FAQ /> */}
-         </div>
+  
+      
             <Newsletter /> 
           </ContentWrapper>
-           <Footer />  
+           <Footer />   
         </AppWrapper>
       </>
     </ThemeProvider>
