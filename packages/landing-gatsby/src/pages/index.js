@@ -56,7 +56,7 @@ const AppModern = () => {
 
           <PricingPolicy /> 
   
-      
+      <FAQ/>
             <Newsletter /> 
           </ContentWrapper>
            <Footer />   

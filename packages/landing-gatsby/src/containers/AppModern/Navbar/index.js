@@ -103,13 +103,13 @@ const Navbar = () => {
     <NavbarWrapper className="navbar">
       <Container>
         <Logo
-          href="/appmodern"
+       
           logoSrc={LogoImage}
           title="App Modern"
           className="main-logo"
         />
         <Logo
-          href="/appmodern"
+ 
           logoSrc={LogoImageAlt}
           title="App Modern"
           className="logo-alt"

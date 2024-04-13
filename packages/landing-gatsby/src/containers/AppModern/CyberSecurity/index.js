@@ -74,7 +74,7 @@ const VisitorSection = ({
             }
             description={
               <Text
-                content="Tous les documents sont stockés chez un leader hébergeur agréé par les standars de l'industrie (FedRAMP, la Directive des données de l'UE, FISMA ...). Nous utilisons le même hébergeur que certaines compagnies de Fortune 500. Vos données sont également cryptées afin d'assurer leur confidentialité."
+                content="Tous les documents sont stockés chez un leader hébergeur agréé par les standars de l'industrie (FedRAMP, la Directive des données de l'UE, FISMA ...) en Amérique du Nord. Nous ne lésinons pas sur les moyens et utilisons le même hébergeur que certaines compagnies de Fortune 500. Vos données sont également cryptées afin d'assurer leur confidentialité."
                 {...description}
               />
             }
